@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Inter Tight", sans-serif;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+/*----------
+ШАПКА
+----------*/
+.nav__menu {
+	display: flex;
+	justify-content: center;
+	background-color: #ebf6ff;
+	height: 100px;
+}
+.container {
+	width: 1400px;
+	display: flex;
+	justify-content: space-between;
+}
+.nav__links {
+	display: flex;
+	gap: 29px;
+	align-items: center;
+}
+.nav__links a {
+	text-decoration: none;
+	color: black;
+	font-weight: 400;
+	font-size: 20px;
+}
+a {
+	color: black;
+	transition: 0.4s;
+}
+a:hover {
+	color: rgba(105, 105, 105, 0.932);
+}
+/*--------
+СЕКЦИЯ
+---------*/
+.support__section {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background: linear-gradient(86.5deg, #66ace2 55.25%, #408fcb 100%);
+}
+.container__support {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 75px;
+	margin-bottom: 75px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 1300px;
+	padding-bottom: 20px;
+	background-color: #ffffff;
+	border-radius: 50px;
+}
+.container__support h1 {
+	text-align: center;
+	font-size: 64px;
+	font-weight: 400;
+	margin-bottom: 0;
+	font-weight: 300;
+}
+p {
+	display: flex;
+	margin: 0;
+	font-size: 64px;
+	font-weight: 300;
+}
+.section__input {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 20px;
+	gap: 20px;
+}
+.border__blue {
+	display: flex;
+	width: 604px;
+	font-size: 20px;
+	border-radius: 30px;
+	border: 3px #408fcb solid;
+	padding: 10px;
+}
+.border__block {
+	display: flex;
+	width: 100%;
+	font-size: 20px;
+	border-radius: 30px;
+	border: 3px #408fcb solid;
+	padding: 10px;
+	height: 243px;
+	box-sizing: border-box;
+}
+.try__on {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	padding: 10px;
+	width: 171px;
+	height: 50px;
+	font-size: 20px;
+	border-radius: 15px;
+	color: #ffffff;
+	background: linear-gradient(86.5deg, #66ace2 55.25%, #408fcb 100%);
+	cursor: pointer;
+}
+.try__on:hover{
+	background:#408fcb;
+}
+.footer__nav {
+	display: flex;
+	justify-content: center;
+	flex-grow: 1;
+	width: 100%;
+	height: 190px;
+	background-color: #e1f1ff;
+	gap: 80px;
+}
+.block__footer {
+	display: flex;
+	margin-top: 50px;
+	flex-direction: column;
+	padding-bottom: 30px;
+}
+.block__footer a {
+	text-decoration: none;
+	font-size: 14px;
+}
+.block__footer p {
+	font-size: 16px;
+}
