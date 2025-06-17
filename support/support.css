@@ -61,6 +61,9 @@ a:hover {
 	padding-bottom: 20px;
 	background-color: #ffffff;
 	border-radius: 50px;
+	background-image: url(image/Vector.png);
+	background-repeat: no-repeat;
+	background-position: right;
 }
 .container__support h1 {
 	text-align: center;
