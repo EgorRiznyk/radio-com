@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
 body {
-	display: flex;
+	display: flex ;
 	padding: 0;
 	margin: 0;
 	font-family: "Inter Tight", sans-serif;
@@ -36,67 +36,39 @@ a {
 a:hover {
 	color: rgba(105, 105, 105, 0.932);
 }
-.pay__section {
-	display: flex;
+.speed__sec{
+    display: flex;
 	justify-content: center;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	width: 100;
+    height: 100;
 	background: linear-gradient(86.5deg, #66ace2 55.25%, #408fcb 100%);
-	width: 100%;
 }
-.pay__container {
-	padding-top: 40px;
-	padding-bottom: 50px;
-	background-color: #ffffff;
+.container__sec{
+    display: flex;
+	flex-direction: column;
+	margin-top: 75px;
+	margin-bottom: 75px;
+	padding-left: 20px;
+	padding-right: 20px;
 	width: 1300px;
-	border-radius: 40px;
+	padding-bottom: 20px;
+	background-color: #ffffff;
+	border-radius: 50px;
 }
-.pay__container h1 {
-	display: flex;
-	justify-content: center;
-	font-family: sans-serif;
-	font-size: 64px;
-	font-weight: 400;
+.container__sec h1{
+    font-size: 96px;
+    font-weight: 700;
+    margin-bottom: 0;
 }
-.pay__container h2 {
-	font-size: 20px;
-	font-weight: 400;
+.container__sec p{
+    font-size: 32px;
+    letter-spacing: 3px;
 }
-.box__pay {
-	font-size: 32px;
-	margin-left: 40px;
-}
-.box__pay p {
-	letter-spacing: 3px;
-	margin-bottom: 10px;
-}
-.box__pay h3 {
-	color: #4f4f4f;
-	font-weight: 400;
-	font-size: 16px;
-	margin-left: 20px;
-}
-.nav__info{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-.nav__info p{
-	font-weight: 400;
-	font-size: 32px;
-	margin-top: 50px;
-	margin-left: 15px;
-}
-.tab__space {
-	display: flex;
-	flex-direction: column;
-	gap: 15px !important;
-	width: 1140px;
-}
-.space__two .accordion-button{
-	height: 100px;
-	border: #408fcb solid !important;
-	border-radius: 20px !important;
+.line__speed{
+    width: 571px;
+    height: 3px;
+    background-color: #408fcb;
+    
 }
 .footer__nav {
 	display: flex;
@@ -109,22 +81,14 @@ a:hover {
 }
 .block__footer {
 	display: flex;
+	padding-bottom: 20px;
 	margin-top: 50px;
 	flex-direction: column;
-	padding-bottom: 20px;
 }
 .block__footer a {
 	text-decoration: none;
 	font-size: 14px;
-	color: #000000;
 }
 .block__footer p {
 	font-size: 16px;
-}
-a {
-	color: black;
-	transition: 0.4s;
-}
-a:hover {
-	color: rgba(105, 105, 105, 0.932);
 }
