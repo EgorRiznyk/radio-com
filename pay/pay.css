@@ -98,3 +98,33 @@ a:hover {
 	border: #408fcb solid !important;
 	border-radius: 20px !important;
 }
+.footer__nav {
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	width: 100%;
+	height: 190px;
+	background-color: #e1f1ff;
+	gap: 80px;
+}
+.block__footer {
+	display: flex;
+	margin-top: 50px;
+	flex-direction: column;
+	padding-bottom: 20px;
+}
+.block__footer a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #000000;
+}
+.block__footer p {
+	font-size: 16px;
+}
+a {
+	color: black;
+	transition: 0.4s;
+}
+a:hover {
+	color: rgba(105, 105, 105, 0.932);
+}
