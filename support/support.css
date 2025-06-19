@@ -159,7 +159,9 @@ p {
 	.footer__nav{
 		gap: 4px;
 	}
-}
+}/*--------
+   mobile
+	 -------*/
 @media(max-width:500px)	{
 	.border__blue{
 		width: 250px;
