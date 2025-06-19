@@ -280,3 +280,9 @@ h2 {
 .block__footer p {
 	font-size: 16px;
 }
+@media (max-width:700px) {
+.nav__menu{
+	max-width: 900px;
+	max-height: 100px;
+}
+}

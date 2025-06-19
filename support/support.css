@@ -25,6 +25,7 @@ body {
 	display: flex;
 	gap: 29px;
 	align-items: center;
+	padding-right: 40px;
 }
 .nav__links a {
 	text-decoration: none;
@@ -127,7 +128,7 @@ p {
 	width: 100%;
 	height: 190px;
 	background-color: #e1f1ff;
-	gap: 80px;
+	gap: 50px;
 }
 .block__footer {
 	display: flex;
@@ -142,3 +143,29 @@ p {
 .block__footer p {
 	font-size: 16px;
 }
+@media(max-width:700px) {
+	.border__blue{
+		width: 350px;
+	}
+	.container img{
+		width: 70px;
+	}
+	.nav__links a{
+		font-size: 15px;
+	}
+	.container__support h1{
+		font-size: 25px;
+	}
+	.footer__nav{
+		gap: 4px;
+	}
+}
+@media(max-width:500px)	{
+	.border__blue{
+		width: 250px;
+
+	}
+	.nav__links{
+		display: none;
+	}
+	
